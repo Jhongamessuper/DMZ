@@ -34,6 +34,11 @@ body{
     font-size: 30px;
 }
 
+.menu-logo img{
+    width: 120px;
+    height: 23px;
+}
+
 #menu-lista{
     display: flex;
     gap: 30px;
@@ -91,6 +96,11 @@ body{
     font-size: 28px;
 }
 
+.imagem{
+    width: 600px;
+    height: 320px;
+}
+
 .links{
     font-size: 20px;
 }
@@ -132,8 +142,8 @@ body{
         width: 100%;
         padding: 20px 0;
         background-color: #141414;
-        border-top: solid 1px white;
-        border-bottom: solid 1px white;
+        border-top: solid 1px #ff8c00;
+        border-bottom: solid 1px #ff8c00;
     }
 
     #menu-mobile{
@@ -151,6 +161,11 @@ body{
 }
 
 @media (max-width: 425px){
+    .menu-logo img{
+        width: 90px;
+        height: 21px;
+    }
+
     #anchor{
         flex-direction: column;
         text-align: justify;
@@ -173,6 +188,18 @@ body{
 
     .titulo{
         font-size: 23px;
+    }
+
+    .imagem{
+        width: 320px;
+        height: 180px;
+    }
+
+    #anchor5{
+        flex-direction: column;
+        gap: 30px;
+        font-size: 14px;
+        text-align: center;
     }
 }
 
@@ -198,6 +225,11 @@ body{
         font-size: 20px;
     }
 
+    .imagem{
+        width: 300px;
+        height: 160px;
+    }
+
     #anchor5{
         flex-direction: column;
         gap: 30px;
@@ -218,6 +250,11 @@ body{
     .caixa-preta-para-texto{
         width: 300px;
         padding: 20px;
+    }
+
+    .imagem{
+        width: 260px;
+        height: 140px;
     }
 
     #anchor5{
